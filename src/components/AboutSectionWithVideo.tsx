@@ -36,7 +36,7 @@ export default function AboutSectionWithVideo({ t, isRTL }: AboutSectionWithVide
         {/* Left: 50% circular image with play button and testimonial below */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center bg-gray-50 py-12 px-6 gap-8">
           <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-white bg-white flex items-center justify-center">
-            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&w=600&q=80" alt="Lawyer" className="object-cover w-full h-full" />
+            <img src="/assets/videotump.webp" alt="Video thumbnail" className="object-cover w-full h-full" />
             <button
               className="absolute inset-0 flex items-center justify-center bg-black/10 hover:bg-black/20 transition"
               onClick={() => setShowVideo(true)}

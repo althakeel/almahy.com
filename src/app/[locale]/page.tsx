@@ -84,7 +84,8 @@ export default function Home() {
   /* ---------------- Hero Background Slider ---------------- */
 
   const heroImages = [
-    "/assets/bannerSlider/5.png",
+   "/assets/bannerSlider/image.png",
+      "/assets/bannerSlider/main3.webp",
     "/assets/bannerSlider/6.webp",
     "/assets/bannerSlider/image.png",
   ];

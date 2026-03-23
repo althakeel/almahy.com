@@ -1,5 +1,4 @@
 {
-  "/api/google-reviews/route": "app/api/google-reviews/route.js",
   "/[locale]/page": "app/[locale]/page.js",
   "/[locale]/about/page": "app/[locale]/about/page.js",
   "/[locale]/legal-services/page": "app/[locale]/legal-services/page.js",

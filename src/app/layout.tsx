@@ -41,13 +41,14 @@ export default function RootLayout({
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"
-          className="fixed bottom-5 right-5 z-50 transition-transform hover:scale-105"
+          className="fixed bottom-16 right-4 md:bottom-12 md:right-5 z-50 transition-transform hover:scale-105"
         >
           <Image
             src="/assets/whatsapp.png"
             alt="WhatsApp"
-            width={72}
-            height={72}
+            width={48}
+            height={48}
+            className="w-12 h-12 md:w-[56px] md:h-[56px]"
             priority
           />
         </a>
