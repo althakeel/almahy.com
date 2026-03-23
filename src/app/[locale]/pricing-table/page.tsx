@@ -290,6 +290,8 @@ export default async function Page({
   };
 
   const pageContent = content[lang];
+  const accent = "#D4B15A";
+  const accentSoft = "#E3C97A";
 
   const PricingCard = ({
     name,
@@ -315,12 +317,12 @@ export default async function Page({
         bg-white rounded-lg p-8 shadow-lg hover:shadow-2xl transition-all duration-300
         ${featured ? "scale-105 relative" : "hover:scale-105"}
       `}
-      style={{ border: featured ? "2px solid #FFD600" : "none" }}
+      style={{ border: featured ? `2px solid ${accent}` : "none" }}
     >
       {featured && (
         <div
           className="absolute -top-4 left-1/2 transform -translate-x-1/2 text-white px-6 py-1 rounded-full text-xs font-bold uppercase"
-          style={{ backgroundColor: "#FFD600", color: "#181818" }}
+          style={{ backgroundColor: accent, color: "#181818" }}
         >
           Popular
         </div>
@@ -345,7 +347,7 @@ export default async function Page({
               className="w-5 h-5 flex-shrink-0 mt-0.5"
               fill="currentColor"
               viewBox="0 0 20 20"
-              style={{ color: "#FFD600" }}
+              style={{ color: accent }}
             >
               <path
                 fillRule="evenodd"
@@ -366,13 +368,13 @@ export default async function Page({
         style={
           featured
             ? {
-                backgroundColor: "#FFD600",
+                backgroundColor: accent,
                 color: "#181818",
-                boxShadow: "0 2px 8px 0 #FFD60033",
+                boxShadow: "0 2px 8px 0 #D4B15A33",
               }
             : {
-                border: "2px solid #FFD600",
-                color: "#FFD600",
+                border: `2px solid ${accent}`,
+                color: accent,
                 background: "white",
               }
         }
@@ -388,13 +390,13 @@ export default async function Page({
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 md:px-8 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white shadow-2xl">
         <div className="max-w-[1250px] mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight drop-shadow-lg text-yellow-400">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight drop-shadow-lg text-amber-300">
             {pageContent.pageTitle}
           </h1>
           <div className="flex justify-center mb-6">
-            <div className="h-1 w-20 rounded bg-yellow-400"></div>
+            <div className="h-1 w-20 rounded bg-amber-300"></div>
           </div>
-          <p className="text-lg md:text-xl text-yellow-100 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-amber-100 max-w-3xl mx-auto">
             {pageContent.pageDescription}
           </p>
         </div>
@@ -403,11 +405,11 @@ export default async function Page({
       {/* Legal Packages */}
       <section className="py-20 px-4 md:px-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="max-w-[1250px] mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 text-yellow-400 drop-shadow-lg">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 text-amber-300 drop-shadow-lg">
             {pageContent.legalTitle}
           </h2>
           <div className="flex justify-center mb-12">
-            <div className="h-1 w-16 rounded bg-yellow-400"></div>
+            <div className="h-1 w-16 rounded bg-amber-300"></div>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -420,19 +422,19 @@ export default async function Page({
 
       {/* Divider */}
       <div className="flex items-center justify-center py-8">
-        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
-        <div className="mx-4 text-3xl text-yellow-400">✦</div>
-        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
+        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-amber-300 to-transparent"></div>
+        <div className="mx-4 text-3xl text-amber-300">✦</div>
+        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-amber-300 to-transparent"></div>
       </div>
 
       {/* Corporate Packages */}
       <section className="py-20 px-4 md:px-8 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800">
         <div className="max-w-[1250px] mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 text-yellow-400 drop-shadow-lg">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 text-amber-300 drop-shadow-lg">
             {pageContent.corporateTitle}
           </h2>
           <div className="flex justify-center mb-12">
-            <div className="h-1 w-16 rounded bg-yellow-400"></div>
+            <div className="h-1 w-16 rounded bg-amber-300"></div>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -445,19 +447,19 @@ export default async function Page({
 
       {/* Divider */}
       <div className="flex items-center justify-center py-8">
-        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
-        <div className="mx-4 text-3xl text-yellow-400">✦</div>
-        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-yellow-400 to-transparent"></div>
+        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-amber-300 to-transparent"></div>
+        <div className="mx-4 text-3xl text-amber-300">✦</div>
+        <div className="h-px w-1/3 bg-gradient-to-r from-transparent via-amber-300 to-transparent"></div>
       </div>
 
       {/* Debt Collection Packages */}
       <section className="py-20 px-4 md:px-8 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="max-w-[1250px] mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 text-yellow-400 drop-shadow-lg">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4 text-amber-300 drop-shadow-lg">
             {pageContent.debtTitle}
           </h2>
           <div className="flex justify-center mb-12">
-            <div className="h-1 w-16 rounded bg-yellow-400"></div>
+            <div className="h-1 w-16 rounded bg-amber-300"></div>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -471,10 +473,10 @@ export default async function Page({
       {/* CTA Section */}
       <section className="py-20 px-4 md:px-8 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-2xl">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-yellow-400 drop-shadow-lg">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-amber-300 drop-shadow-lg">
             {lang === 'en' ? 'Need a Custom Plan?' : 'هل تحتاج إلى خطة مخصصة؟'}
           </h2>
-          <p className="text-lg mb-8 text-yellow-100">
+          <p className="text-lg mb-8 text-amber-100">
             {lang === 'en' 
               ? 'Contact us for a tailored solution that fits your unique business requirements.' 
               : 'اتصل بنا للحصول على حل مصمم خصيصاً ليناسب احتياجات عملك الفريدة.'}
@@ -483,7 +485,8 @@ export default async function Page({
             href={`https://wa.me/97142648831?text=Hello, I need a custom pricing plan`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-yellow-400 text-gray-900 font-bold px-10 py-4 rounded-full hover:bg-yellow-300 transition-colors shadow-xl border-2 border-yellow-400"
+            className="inline-block text-gray-900 font-bold px-10 py-4 rounded-full transition-colors shadow-xl border-2"
+            style={{ backgroundColor: accentSoft, borderColor: accent, color: "#1f2937" }}
           >
             {lang === 'en' ? 'Contact Sales Team' : 'اتصل بفريق المبيعات'}
           </Link>

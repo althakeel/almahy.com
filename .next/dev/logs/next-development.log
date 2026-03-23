@@ -95,3 +95,43 @@
 [00:33:57.940] Browser WARN    Image with src "/assets/services/accounting.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:33:57.940] Browser WARN    Image with src "/assets/services/passport.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:33:57.940] Browser WARN    Image with src "/assets/services/reports.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:11.659] Server  ERROR   Google Places API key is not configured
+[00:37:11.670] Server  ERROR   Google Places API key is not configured
+[00:37:11.776] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:37:11.776] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:40:00.153] Server  ERROR   Google Places API key is not configured
+[00:40:00.167] Server  ERROR   Google Places API key is not configured
+[00:40:00.286] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:40:00.286] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:43:34.096] Server  ERROR   Google Places API key is not configured
+[00:43:34.103] Server  ERROR   Google Places API key is not configured
+[00:43:34.205] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:43:34.205] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:44:28.180] Server  ERROR   Google Places API key is not configured
+[00:44:28.190] Server  ERROR   Google Places API key is not configured
+[00:44:28.294] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:44:28.294] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:44:29.760] Server  ERROR   Google Places API key is not configured
+[00:44:29.769] Server  ERROR   Google Places API key is not configured
+[00:44:29.877] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:44:29.877] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:44:36.108] Server  ERROR   Google Places API key is not configured
+[00:44:36.116] Server  ERROR   Google Places API key is not configured
+[00:44:36.224] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:44:36.224] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:45:11.884] Server  ERROR   Google Places API key is not configured
+[00:45:11.894] Server  ERROR   Google Places API key is not configured
+[00:45:11.996] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:45:11.996] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:45:29.330] Server  ERROR   Google Places API key is not configured
+[00:45:29.340] Server  ERROR   Google Places API key is not configured
+[00:45:29.443] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:45:29.443] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:46:45.960] Server  ERROR   Google Places API key is not configured
+[00:46:45.970] Server  ERROR   Google Places API key is not configured
+[00:46:46.075] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:46:46.075] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:47:13.957] Server  ERROR   Google Places API key is not configured
+[00:47:13.983] Server  ERROR   Google Places API key is not configured
+[00:47:14.088] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:47:14.088] Browser WARN    Google Reviews API unavailable, using fallback data: {}

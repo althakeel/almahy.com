@@ -66,14 +66,17 @@ export default function Navbar({ locale }: NavbarProps) {
         `}
         style={{ WebkitBackdropFilter: 'blur(16px) saturate(140%)', backdropFilter: 'blur(16px) saturate(140%)' }}
       >
-        <div className={`flex items-center justify-between py-2 md:py-2.5 ${lang === 'ar' ? 'flex-row-reverse' : ''}`}>
+        <div className="flex items-center justify-between py-2 md:py-2.5">
           {/* Logo always on the left */}
-          <Link href={`/${lang}`} className="flex items-center gap-2 md:gap-3 cursor-pointer">
+          <Link
+            href={`/${lang}`}
+            className={`flex items-center gap-2 md:gap-3 cursor-pointer ${lang === 'ar' ? 'order-1' : 'order-1'}`}
+          >
             <Image src={Logo} alt="Gulf Star Logo" width={150} height={100} className="object-contain md:w-[150px] md:h-[55px]" priority />
           </Link>
 
           {/* Center: Navigation Links */}
-          <div className={`hidden md:flex items-center gap-6 lg:gap-10 ${lang === 'ar' ? 'justify-end' : 'justify-start'}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+          <div className={`hidden md:flex items-center gap-6 lg:gap-10 order-2 ${lang === 'ar' ? 'justify-end' : 'justify-start'}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
             <Link href={`/${lang}`} className="text-sm font-medium text-white transition-colors whitespace-nowrap" style={{color: 'white'}} onMouseEnter={(e) => e.currentTarget.style.color = '#F8E48B'} onMouseLeave={(e) => e.currentTarget.style.color = 'white'}>
               {t.home}
             </Link>
@@ -92,29 +95,51 @@ export default function Navbar({ locale }: NavbarProps) {
           </div>
 
           {/* Right: Button and Language Switcher */}
-          <div className="flex items-center gap-2 md:gap-4">
+          <div className={`flex items-center gap-2 md:gap-4 ${lang === 'ar' ? 'order-3' : 'order-3'}`}>
             <div className="hidden md:flex items-center rounded-full border border-white/20 bg-white/10 p-1 backdrop-blur">
               <button
                 onClick={() => switchLanguage('en')}
-                className={`px-3 py-1.5 text-xs font-semibold rounded-full transition-colors ${
+                className={`relative overflow-hidden px-3 py-1.5 text-xs font-semibold rounded-full transition-all ${
                   lang === 'en'
-                    ? 'bg-amber-400 text-gray-900'
+                    ? 'text-gray-900 shadow-lg'
                     : 'text-white hover:bg-white/10'
                 }`}
+                style={
+                  lang === 'en'
+                    ? {
+                        background: 'linear-gradient(180deg, #F8DC71 0%, #E7BC3A 56%, #D49D1F 100%)',
+                        boxShadow: 'inset 0 2px 0 rgba(255,255,255,0.55), inset 0 -2px 0 rgba(120,78,0,0.35), 0 2px 8px rgba(0,0,0,0.35)',
+                      }
+                    : undefined
+                }
                 aria-label="Switch to English"
               >
-                EN
+                {lang === 'en' ? (
+                  <span className="pointer-events-none absolute left-[8%] top-[2px] h-[45%] w-[84%] rounded-full bg-white/35 blur-[1px]" />
+                ) : null}
+                <span className="relative z-10">EN</span>
               </button>
               <button
                 onClick={() => switchLanguage('ar')}
-                className={`px-3 py-1.5 text-xs font-semibold rounded-full transition-colors ${
+                className={`relative overflow-hidden px-3 py-1.5 text-xs font-semibold rounded-full transition-all ${
                   lang === 'ar'
-                    ? 'bg-amber-400 text-gray-900'
+                    ? 'text-gray-900 shadow-lg'
                     : 'text-white hover:bg-white/10'
                 }`}
+                style={
+                  lang === 'ar'
+                    ? {
+                        background: 'linear-gradient(180deg, #F8DC71 0%, #E7BC3A 56%, #D49D1F 100%)',
+                        boxShadow: 'inset 0 2px 0 rgba(255,255,255,0.55), inset 0 -2px 0 rgba(120,78,0,0.35), 0 2px 8px rgba(0,0,0,0.35)',
+                      }
+                    : undefined
+                }
                 aria-label="Switch to Arabic"
               >
-                AR
+                {lang === 'ar' ? (
+                  <span className="pointer-events-none absolute left-[8%] top-[2px] h-[45%] w-[84%] rounded-full bg-white/35 blur-[1px]" />
+                ) : null}
+                <span className="relative z-10">AR</span>
               </button>
             </div>
 
@@ -209,26 +234,48 @@ export default function Navbar({ locale }: NavbarProps) {
                     switchLanguage('en');
                     setMobileMenuOpen(false);
                   }}
-                  className={`flex-1 px-2 py-2 text-xs font-semibold rounded transition-colors ${
+                  className={`relative overflow-hidden flex-1 px-2 py-2 text-xs font-semibold rounded transition-all ${
                     lang === 'en'
-                      ? 'bg-amber-400 text-gray-900'
+                      ? 'text-gray-900 shadow-md'
                       : 'bg-gray-700 text-white hover:bg-gray-600'
                   }`}
+                  style={
+                    lang === 'en'
+                      ? {
+                          background: 'linear-gradient(180deg, #F8DC71 0%, #E7BC3A 56%, #D49D1F 100%)',
+                          boxShadow: 'inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -2px 0 rgba(120,78,0,0.35)',
+                        }
+                      : undefined
+                  }
                 >
-                  EN
+                  {lang === 'en' ? (
+                    <span className="pointer-events-none absolute left-[8%] top-[2px] h-[45%] w-[84%] rounded-full bg-white/30 blur-[1px]" />
+                  ) : null}
+                  <span className="relative z-10">EN</span>
                 </button>
                 <button
                   onClick={() => {
                     switchLanguage('ar');
                     setMobileMenuOpen(false);
                   }}
-                  className={`flex-1 px-2 py-2 text-xs font-semibold rounded transition-colors ${
+                  className={`relative overflow-hidden flex-1 px-2 py-2 text-xs font-semibold rounded transition-all ${
                     lang === 'ar'
-                      ? 'bg-amber-400 text-gray-900'
+                      ? 'text-gray-900 shadow-md'
                       : 'bg-gray-700 text-white hover:bg-gray-600'
                   }`}
+                  style={
+                    lang === 'ar'
+                      ? {
+                          background: 'linear-gradient(180deg, #F8DC71 0%, #E7BC3A 56%, #D49D1F 100%)',
+                          boxShadow: 'inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -2px 0 rgba(120,78,0,0.35)',
+                        }
+                      : undefined
+                  }
                 >
-                  AR
+                  {lang === 'ar' ? (
+                    <span className="pointer-events-none absolute left-[8%] top-[2px] h-[45%] w-[84%] rounded-full bg-white/30 blur-[1px]" />
+                  ) : null}
+                  <span className="relative z-10">AR</span>
                 </button>
               </div>
               <button className="w-full bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold px-4 py-2 rounded text-sm transition-colors mt-2">

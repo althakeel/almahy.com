@@ -1,6 +1,9 @@
 {
-  "/[locale]/page": "app/[locale]/page.js",
+  "/api/google-reviews/route": "app/api/google-reviews/route.js",
+  "/[locale]/corporate-services/page": "app/[locale]/corporate-services/page.js",
+  "/[locale]/accounting-services/page": "app/[locale]/accounting-services/page.js",
+  "/[locale]/services/page": "app/[locale]/services/page.js",
   "/[locale]/about/page": "app/[locale]/about/page.js",
-  "/[locale]/legal-services/page": "app/[locale]/legal-services/page.js",
-  "/[locale]/corporate-services/page": "app/[locale]/corporate-services/page.js"
+  "/[locale]/pricing-table/page": "app/[locale]/pricing-table/page.js",
+  "/[locale]/page": "app/[locale]/page.js"
 }

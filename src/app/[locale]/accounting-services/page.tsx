@@ -94,7 +94,7 @@ export default async function AccountingServicesPage({
   const pageContent = content[lang];
 
   return (
-    <div className="w-full bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen w-full bg-slate-950 text-white">
       {/* Hero Section */}
       <section className="relative w-full h-[500px] overflow-hidden">
         <Image
@@ -133,17 +133,17 @@ export default async function AccountingServicesPage({
       </section>
 
       {/* Main Content Section */}
-      <section className="w-full py-20 px-4 md:px-8">
+      <section className="w-full py-20 px-4 md:px-8 bg-slate-950">
         <div className="max-w-[1250px] mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               {pageContent.mainTitle}
             </h2>
             <div className="flex justify-center mb-6">
               <div className="h-1 w-20 bg-amber-500 rounded"></div>
             </div>
-            <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
+            <p className="text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
               {pageContent.mainDesc}
             </p>
           </div>
@@ -153,17 +153,17 @@ export default async function AccountingServicesPage({
             {pageContent.services.map((service, index) => (
               <div
                 key={index}
-                className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-amber-500 hover:-translate-y-2"
+                className="group bg-white/[0.03] rounded-2xl p-6 border border-white/10 hover:border-amber-500 hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="w-14 h-14 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                   <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={service.icon} />
                   </svg>
                 </div>
-                <h3 className="font-bold text-gray-900 mb-3 text-lg group-hover:text-amber-600 transition-colors">
+                <h3 className="font-bold text-white mb-3 text-lg group-hover:text-amber-300 transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-slate-300 text-sm leading-relaxed">
                   {service.desc}
                 </p>
               </div>
@@ -202,7 +202,7 @@ export default async function AccountingServicesPage({
           fill
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-slate-900/85"></div>
+        <div className="absolute inset-0 bg-slate-950/90"></div>
 
         {/* Content */}
         <div className="relative h-full flex items-center justify-center px-4">
@@ -210,7 +210,7 @@ export default async function AccountingServicesPage({
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
               {lang === 'en' ? 'Get In Touch Today' : 'تواصل معنا اليوم'}
             </h2>
-            <p className="text-gray-200 text-xl mb-10 leading-relaxed">
+            <p className="text-slate-200 text-xl mb-10 leading-relaxed">
               {lang === 'en' 
                 ? 'Get in touch today and see how smooth, reliable accounting can power your next stage of growth.' 
                 : 'تواصل معنا اليوم وشاهد كيف يمكن للمحاسبة السلسة والموثوقة أن تدفع مرحلة النمو القادمة لديك.'}

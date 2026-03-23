@@ -99,18 +99,18 @@ export default async function ServicesPage({
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 text-center bg-gradient-to-r from-blue-700 via-blue-500 to-cyan-400 rounded-2xl p-12 shadow-2xl">
+        <div className="mt-16 text-center bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 rounded-2xl p-12 shadow-2xl border border-amber-200/20">
           <h2 className="text-3xl font-extrabold text-white mb-4">
             {t.servicesCTA}
           </h2>
-          <p className="text-blue-100 mb-8 text-lg">
+          <p className="text-slate-300 mb-8 text-lg">
             {t.servicesCTADesc}
           </p>
           <Link 
             href="https://wa.me/97142648831?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-white hover:bg-blue-100 text-blue-900 font-bold px-8 py-4 rounded-full text-lg transition-colors shadow-lg border-2 border-blue-300"
+            className="inline-block bg-amber-300 hover:bg-amber-200 text-slate-900 font-bold px-8 py-4 rounded-full text-lg transition-colors shadow-lg border-2 border-amber-300"
           >
             {t.contactButton}
           </Link>
