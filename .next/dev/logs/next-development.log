@@ -1,11 +1,70 @@
-[00:00:13.934] Server  LOG     ✓ Ready in 9s
-[00:00:16.982] Server  LOG     ○ Compiling / ...
-[00:00:21.391] Server  LOG     ○ Compiling /[locale] ...
-[00:00:24.184] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:24.614] Server  ERROR   Google Places API key is not configured
-[00:00:24.810] Browser WARN    Google Reviews API unavailable, using fallback data: {}
-[00:00:29.865] Browser WARN    Image with src "/_next/static/media/logo.2a13c603.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:30.492] Browser WARN    Image with src "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:30.853] Browser WARN    Image with src "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:30.853] Browser WARN    Image with src "https://images.unsplash.com/photo-1462899006636-339e08d1844e?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:43.018] Server  LOG     ✓ Finished writing to filesystem cache in 15.3s
+[00:00:02.341] Server  LOG     ✓ Ready in 2.1s
+[00:00:05.406] Server  LOG     ○ Compiling /[locale] ...
+[00:00:08.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.974] Browser WARN    Image with src "/_next/static/media/logo.d72d29c8.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:08.974] Browser WARN    Image with src "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.974] Browser WARN    Image with src "https://images.unsplash.com/photo-1462899006636-339e08d1844e?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.974] Browser WARN    Image with src "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.645] Server  ERROR   Google Places API key is not configured
+[00:00:09.769] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:00:10.782] Browser WARN    Image with src "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.782] Browser WARN    Image with src "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.782] Browser WARN    Image with src "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&h=350&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:53.358] Server  ERROR   ⨯ Failed to generate static paths for /[locale]:
+[00:04:53.384] Server  ERROR   SyntaxError: Invalid or unexpected token
+[00:04:53.496] Server  ERROR   Google Places API key is not configured
+[00:04:53.507] Server  ERROR   Google Places API key is not configured
+[00:04:53.613] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:04:53.613] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:05:58.401] Browser WARN    Image with src "/assets/services/passport.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:58.401] Browser WARN    Image with src "/assets/services/accounting.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:58.402] Browser WARN    Image with src "/assets/services/notory.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:58.402] Browser WARN    Image with src "/assets/services/corporate.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:58.402] Browser WARN    Image with src "/assets/services/legal.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:58.402] Browser WARN    Image with src "/assets/services/reports.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:42.652] Server  ERROR   Google Places API key is not configured
+[00:12:42.664] Server  ERROR   Google Places API key is not configured
+[00:12:42.768] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:12:42.768] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:15:50.024] Server  ERROR   Google Places API key is not configured
+[00:19:33.823] Server  WARN    ⚠ Fast Refresh had to perform a full reload when l\\almahy.com\\node_modules\\next\\dist\\client\\image-component.js","ids":[]}, l\\almahy.com\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Geist\",\"arguments\":[{\"variable\":\"--font-geist-sans\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistSans\"}","ids":[]}, l\\almahy.com\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Geist_Mono\",\"arguments\":[{\"variable\":\"--font-geist-mono\",\"subsets\":[\"latin\"]}],\"variableName\":\"geistMono\"}","ids":[]}, l\\almahy.com\\src\\app\\Favicon.png","ids":["*"]}, l\\almahy.com\\src\\app\\globals.css","ids":[]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:34.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:34.561] Browser WARN    Image with src "/_next/static/media/logo.d72d29c8.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:58.788] Browser WARN    Image with src "/assets/services/legal.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:58.788] Browser WARN    Image with src "/assets/services/corporate.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:58.788] Browser WARN    Image with src "/assets/services/notory.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:58.901] Server  ERROR   Google Places API key is not configured
+[00:20:58.909] Server  ERROR   Google Places API key is not configured
+[00:20:59.017] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:20:59.017] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:21:03.819] Browser WARN    Image with src "/assets/services/accounting.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:03.819] Browser WARN    Image with src "/assets/services/passport.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:03.819] Browser WARN    Image with src "/assets/services/reports.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:51.619] Browser WARN    Image with src "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:51.619] Browser WARN    Image with src "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:51.816] Browser WARN    Image with src "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:52.775] Browser WARN    Image with src "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:52.775] Browser WARN    Image with src "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:52.775] Browser WARN    Image with src "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:52.775] Browser WARN    Image with src "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:52.775] Browser WARN    Image with src "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:52.775] Browser WARN    Image with src "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:56.199] Server  ERROR   Google Places API key is not configured
+[00:21:56.210] Server  ERROR   Google Places API key is not configured
+[00:21:56.324] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:21:56.324] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:21:58.589] Browser WARN    Image with src "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:58.749] Browser WARN    Image with src "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:58.749] Browser WARN    Image with src "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&h=700&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:07.561] Server  ERROR   Google Places API key is not configured
+[00:22:07.572] Server  ERROR   Google Places API key is not configured
+[00:22:07.705] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:22:07.705] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:22:16.740] Server  ERROR   Google Places API key is not configured
+[00:22:16.747] Server  ERROR   Google Places API key is not configured
+[00:22:16.858] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:22:16.858] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:22:22.354] Server  ERROR   Google Places API key is not configured
+[00:22:22.362] Server  ERROR   Google Places API key is not configured
+[00:22:22.500] Browser WARN    Google Reviews API unavailable, using fallback data: {}
+[00:22:22.500] Browser WARN    Google Reviews API unavailable, using fallback data: {}

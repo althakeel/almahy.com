@@ -10,6 +10,58 @@ export default async function AboutPage({
   const isValidLoc = locale === "en" || locale === "ar";
   const lang = isValidLoc ? (locale as Locale) : "en";
   const t = translations[lang];
+  const teamMembers = [
+    {
+      name: "Dr Almahy",
+      position: lang === "en" ? "Founder" : "المؤسس",
+      photo: "/assets/employs/Dr%20Almahy.webp",
+    },
+    {
+      name: "Abdelrahman Mattar",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Abdelrahman%20mattar%20copy.webp",
+    },
+    {
+      name: "Ahmad Shokry",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Ahmad%20Shokry%20copy.webp",
+    },
+    {
+      name: "Dalia Ghonem",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Dalia%20Ghonem%20copy.webp",
+    },
+    {
+      name: "Fadeel",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Fadeel%20copy.webp",
+    },
+    {
+      name: "Kaan",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Kaan%20copy.webp",
+    },
+    {
+      name: "Mahmoud Abdel Fadeel",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Mahmoud%20Abdel%20fadeel%20copy.webp",
+    },
+    {
+      name: "Mohamed Elmaghraby",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Mohamed%20Elmaghraby%20copy.webp",
+    },
+    {
+      name: "Mohamed Hassanein",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Mohamed%20Hassanein%20copy.webp",
+    },
+    {
+      name: "Nasef Abdelaal",
+      position: lang === "en" ? "Legal Team" : "الفريق القانوني",
+      photo: "/assets/employs/Nasef%20Abdelaal%20copy.webp",
+    },
+  ];
 
   return (
     <div className="min-h-screen">
@@ -205,49 +257,40 @@ export default async function AboutPage({
       </div>
 
       {/* Our Team Section */}
-      <div className="py-20 px-4 md:px-8 bg-gray-50">
+      <div className="py-24 px-4 md:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-14 md:mb-16">
+            <p className="font-semibold tracking-[0.16em] uppercase text-xs mb-3" style={{color: '#BF9C4A'}}>
+              {lang === 'en' ? 'Professional Experts' : 'خبراء محترفون'}
+            </p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               {lang === 'en' ? 'Our Team' : 'فريقنا'}
             </h2>
             <div className="flex justify-center">
-              <div className="h-1 w-24 rounded" style={{backgroundColor: '#F8E48B'}}></div>
+              <div className="h-[3px] w-20 rounded-full" style={{backgroundColor: '#F8E48B'}}></div>
             </div>
-            <p className="text-gray-600 text-lg mt-4 max-w-2xl mx-auto">
+            <p className="text-gray-600 text-base md:text-lg mt-4 max-w-2xl mx-auto leading-relaxed">
               {lang === 'en' ? 'Meet our dedicated staff who drive our success.' : 'تعرف على فريق العمل المتميز لدينا.'}
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {/* Example staff - replace with your real data and images */}
-            {[
-              {
-                name: 'Ahmed Al Thakeel',
-                position: lang === 'en' ? 'Managing Partner' : 'الشريك الإداري',
-                photo: '/assets/team/ahmed.jpg',
-              },
-              {
-                name: 'Sara Al Mansoori',
-                position: lang === 'en' ? 'Senior Lawyer' : 'محامية أولى',
-                photo: '/assets/team/sara.jpg',
-              },
-              {
-                name: 'Mohammed Al Farsi',
-                position: lang === 'en' ? 'Tax Consultant' : 'مستشار ضريبي',
-                photo: '/assets/team/mohammed.jpg',
-              },
-              {
-                name: 'Fatima Al Suwaidi',
-                position: lang === 'en' ? 'Legal Advisor' : 'مستشارة قانونية',
-                photo: '/assets/team/fatima.jpg',
-              },
-            ].map((member, idx) => (
-              <div key={idx} className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition-shadow">
-                <div className="w-28 h-28 rounded-full overflow-hidden mb-4 border-4 border-[#F8E48B]">
-                  <img src={member.photo} alt={member.name} className="w-full h-full object-cover" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {teamMembers.map((member, idx) => (
+              <div
+                key={idx}
+                className="group relative h-[380px] overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-[0_12px_24px_-18px_rgba(15,23,42,0.45)] hover:-translate-y-1 hover:shadow-[0_18px_32px_-18px_rgba(15,23,42,0.45)] transition-all duration-300"
+              >
+                <img
+                  src={member.photo}
+                  alt={member.name}
+                  className="h-full w-full object-cover object-top group-hover:scale-[1.03] transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-gray-900/10 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 border-t border-white/15 bg-black/35 backdrop-blur-sm px-4 py-3 text-center">
+                  <h4 className="text-white text-[28px] font-bold leading-[1.12] tracking-[-0.015em]">
+                    {member.name}
+                  </h4>
+                  <p className="mt-1 text-xs uppercase tracking-[0.12em] font-medium text-white/80">{member.position}</p>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-1">{member.name}</h4>
-                <p className="text-gray-500 text-base">{member.position}</p>
               </div>
             ))}
           </div>

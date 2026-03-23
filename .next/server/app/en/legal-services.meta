@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/legal-services/layout,_N_T_/[locale]/legal-services/page,_N_T_/en/legal-services"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/legal-services/__PAGE__",
+    "/$d$locale/legal-services",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

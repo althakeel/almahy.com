@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/2012b9b7e10e2e59.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800","image"]
+:HL["https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800","image"]
+:HL["/assets/team/ahmed.jpg","image"]
+:HL["/assets/team/sara.jpg","image"]
+:HL["/assets/team/mohammed.jpg","image"]
+:HL["/assets/team/fatima.jpg","image"]
+0:{"buildId":"G2PNRHQwnsvPQf6Jvce2u","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"locale","paramType":"d","paramKey":"ar","hasRuntimePrefetch":false,"slots":{"children":{"name":"about","paramType":null,"paramKey":"about","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/pricing-table/layout,_N_T_/[locale]/pricing-table/page,_N_T_/ar/pricing-table"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/pricing-table/__PAGE__",
+    "/$d$locale/pricing-table",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

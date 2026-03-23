@@ -159,8 +159,12 @@ export default function Stats({ locale }: { locale: Locale }) {
   const pageContent = content[locale];
 
   return (
-    <section className="w-full py-24 px-4 md:px-8 bg-gradient-to-br from-yellow-50 via-white to-yellow-100">
-      <div className="max-w-[1200px] mx-auto">
+    <section
+      className="relative w-full py-24 px-4 md:px-8 bg-cover bg-center"
+      style={{ backgroundImage: 'url("/assets/service/7.webp")' }}
+    >
+      <div className="absolute inset-0 bg-white/88" />
+      <div className="relative max-w-[1200px] mx-auto">
         {/* Header */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-3 mb-8">

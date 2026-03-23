@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/expert-reports/layout,_N_T_/[locale]/expert-reports/page,_N_T_/en/expert-reports"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/expert-reports/__PAGE__",
+    "/$d$locale/expert-reports",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -15,37 +15,37 @@ const servicesData = {
       {
         title: 'LEGAL SERVICES',
         description: 'Comprehensive legal support for individuals and businesses, including consultations, drafting, review, and strategic legal guidance across key practice areas.',
-        image: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=500&h=350&fit=crop',
+        image: '/assets/services/legal.webp',
         url: '/legal-services'
       },
       {
         title: 'CORPORATE SERVICES',
         description: 'Business setup, restructuring, governance advisory, and compliance assistance tailored for startups, SMEs, and established organizations in the UAE.',
-        image: 'https://images.unsplash.com/photo-1462899006636-339e08d1844e?w=500&h=350&fit=crop',
+        image: '/assets/services/corporate.webp',
         url: '/corporate-services'
       },
       {
         title: 'NOTARY PUBLIC SERVICES',
         description: 'Support with notarization workflows, document attestation preparation, and guidance to ensure submissions meet required legal standards.',
-        image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=350&fit=crop',
+        image: '/assets/services/notory.webp',
         url: '/notary-public-services'
       },
       {
         title: 'ACCOUNTING SERVICES',
         description: 'Gulf Star Accounting provides accounting services through qualified professional accountants with extensive experience in the various activities of companies, and the success of any institution depends on the effectiveness of its accounting and financial system, and the competent professional accountant is the cornerstone of this system',
-        image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&h=350&fit=crop',
+        image: '/assets/services/accounting.webp',
         url: '/accounting-services'
       },
       {
         title: 'SECOND PASSPORT',
         description: 'Advisory support for second passport and citizenship pathways, including eligibility review, document readiness, and process coordination.',
-        image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&h=350&fit=crop',
+        image: '/assets/services/passport.webp',
         url: '/second-passport'
       },
       {
         title: 'EXPERT REPORTS',
         description: 'Preparation of clear, structured expert reports and technical legal documentation to support disputes, claims, and court-related proceedings.',
-        image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=350&fit=crop',
+        image: '/assets/services/reports.webp',
         url: '/expert-reports'
       }
     ]
@@ -56,37 +56,37 @@ const servicesData = {
       {
         title: 'الخدمات القانونية',
         description: 'دعم قانوني شامل للأفراد والشركات، يشمل الاستشارات والصياغة والمراجعة ووضع الاستراتيجيات القانونية في مختلف المجالات.',
-        image: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=500&h=350&fit=crop',
+        image: '/assets/services/legal.webp',
         url: '/legal-services'
       },
       {
         title: 'خدمات الشركات',
         description: 'تأسيس الشركات وإعادة الهيكلة والحوكمة والامتثال بما يتناسب مع الشركات الناشئة والمؤسسات الصغيرة والمتوسطة والشركات الكبرى في الإمارات.',
-        image: 'https://images.unsplash.com/photo-1462899006636-339e08d1844e?w=500&h=350&fit=crop',
+        image: '/assets/services/corporate.webp',
         url: '/corporate-services'
       },
       {
         title: 'خدمات الكاتب العدل',
         description: 'مساندة في إجراءات التوثيق وتجهيز معاملات التصديق على المستندات والتأكد من توافقها مع المتطلبات القانونية.',
-        image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=350&fit=crop',
+        image: '/assets/services/notory.webp',
         url: '/notary-public-services'
       },
       {
         title: 'خدمات المحاسبة',
         description: 'توفر شركة الخليج ستار للمحاسبة خدمات محاسبية من خلال محاسبين محترفين مؤهلين يتمتعون بخبرة واسعة في مختلف أنشطة الشركات، ونجاح أي مؤسسة يعتمد على فعالية نظامها المحاسبي والمالي، والمحاسب المحترف المختص هو حجر الزاوية في هذا النظام',
-        image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=500&h=350&fit=crop',
+        image: '/assets/services/accounting.webp',
         url: '/accounting-services'
       },
       {
         title: 'الجواز الثاني',
         description: 'استشارات متخصصة لمسارات الحصول على جواز سفر ثانٍ أو جنسية ثانية، بما يشمل مراجعة الأهلية وتجهيز المستندات ومتابعة الإجراءات.',
-        image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=500&h=350&fit=crop',
+        image: '/assets/services/passport.webp',
         url: '/second-passport'
       },
       {
         title: 'تقارير الخبرة',
         description: 'إعداد تقارير خبرة فنية وقانونية واضحة ومنظمة لدعم النزاعات والمطالبات والإجراءات القضائية.',
-        image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&h=350&fit=crop',
+        image: '/assets/services/reports.webp',
         url: '/expert-reports'
       }
     ]

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER/Downloads/Archive%20%2815%29/src/app/page.tsx"],"sourcesContent":["import { redirect } from 'next/navigation';\n\nexport default function Home() {\n  redirect('/en');\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEe,SAAS;IACtB,IAAA,mOAAQ,EAAC;AACX"}}]
-}
